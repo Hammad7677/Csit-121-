@@ -1,0 +1,31 @@
+body {
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color:white;
+    background-color: black;
+
+}
+
+h2 {
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+ul {
+    color: blueviolet;
+    font-size: large;
+}
+
+ol {
+    color: red;
+}
+
+p{
+    color: blue;
+    font-size: medium;
+}
