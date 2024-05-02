@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Elements</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Survey</h1>
+  
+  <div class="form-element">
+    <h2>1. Enter your name</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    </form>
+  </div>
+  
+  <div class="form-element">
+    <h2>2. How satisfied are you with our service?</h2>
+    <form>
+      <input type="checkbox" id="satisfied" name="satisfaction" value="satisfied">
+      <label for="satisfied">Satisfied</label><br>
+      <input type="checkbox" id="neutral" name="satisfaction" value="neutral">
+      <label for="neutral">Neutral</label><br>
+      <input type="checkbox" id="dissatisfied" name="satisfaction" value="dissatisfied">
+      <label for="dissatisfied">Dissatisfied</label><br>
+    </form>
+  </div>
+  
+  <div class="form-element">
+    <h2>3. How was your overall experience with our product?</h2>
+    <form>
+      <input type="radio" id="excellent" name="experience" value="excellent">
+      <label for="excellent">Excellent</label><br>
+      <input type="radio" id="good" name="experience" value="good">
+      <label for="good">Good</label><br>
+      <input type="radio" id="fair" name="experience" value="fair">
+      <label for="fair">Fair</label><br>
+    </form>
+  </div>
+  
+  <div class="form-element">
+    <h2>4. Select a country</h2>
+    <form>
+      <label for="country">Select a country:</label>
+      <select id="country" name="country">
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+        <option value="uk">UK</option>
+        <option value="australia">Australia</option>
+      </select>
+    </form>
+  </div>
+  
+  <div class="form-element">
+    <h2>5. Final Thoughts</h2>
+    <form>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message"></textarea>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
